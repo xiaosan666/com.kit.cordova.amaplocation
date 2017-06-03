@@ -2,7 +2,7 @@
 使用高德Android定位SDK进行定位，以解决webapp中定位不准的问题
 
 ## 安装
-`ionic plugin add https://github.com/yanxiaojun617/com.kit.cordova.amaplocation`
+`cordova plugin add https://github.com/yanxiaojun617/com.kit.cordova.amaplocation --save`
 
 ## 配置
 *  修改 plugin.xml(:54)文件中的高德地图android key,更多详情请看http://www.jianshu.com/p/85aceaee3b35

@@ -1,12 +1,12 @@
-
 # com.kit.cordova.amaplocation
-	使用高德Android定位SDK进行定位，以解决webapp中定位不准的问题
+使用高德Android定位SDK进行定位，以解决webapp中定位不准的问题
 
-## 安装&配置
+## 安装
+`ionic plugin add https://github.com/yanxiaojun617/com.kit.cordova.amaplocation`
 
-    ionic plugin add https://github.com/yanxiaojun617/com.kit.cordova.amaplocation
-	修改plugin.xml中的高德地图android key,更多详情请看http://www.jianshu.com/p/85aceaee3b35
-	<meta-data android:name="com.amap.api.v2.apikey" android:value="您申请的高德地图android key"/>
+##配置
+*  修改 plugin.xml 文件中的高德地图android key,更多详情请看http://www.jianshu.com/p/85aceaee3b35
+`<meta-data android:name="com.amap.api.v2.apikey" android:value="您申请的高德地图android key"/>`
 
 ### ionic1调用方法
 

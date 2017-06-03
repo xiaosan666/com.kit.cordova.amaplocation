@@ -52,6 +52,7 @@
 
 ### ionic2调用方法
 
+```
 import {Injectable} from '@angular/core';
 declare var LocationPlugin;
 
@@ -71,3 +72,4 @@ export class NativeService {
     });
   }
 }
+```

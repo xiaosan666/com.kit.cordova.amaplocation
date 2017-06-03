@@ -6,7 +6,8 @@
 
 ## 配置
 *  修改 plugin.xml(:54)文件中的高德地图android key,更多详情请看http://www.jianshu.com/p/85aceaee3b35
-        `<meta-data android:name="com.amap.api.v2.apikey" android:value="您申请的高德地图android key"/>`
+
+`<meta-data android:name="com.amap.api.v2.apikey" android:value="您申请的高德地图android key"/>`
 
 ### ionic1调用方法
 

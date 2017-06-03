@@ -51,7 +51,7 @@
 
     <config-file target="AndroidManifest.xml" parent="/manifest/application">
       <!--您申请的高德地图android key更多详情请看http://www.jianshu.com/p/85aceaee3b35-->
-      <meta-data android:name="com.amap.api.v2.apikey" android:value="d2bf7fc2e51f6fd2e13038b9a8346f40"/>
+      <meta-data android:name="com.amap.api.v2.apikey" android:value="这里填您申请的高德地图android key"/>
     </config-file>
 
     <config-file target="AndroidManifest.xml" parent="/manifest/application">

@@ -9,6 +9,7 @@
 
 `<meta-data android:name="com.amap.api.v2.apikey" android:value="您申请的高德地图android key"/>`
 
+ps:_此插件android定位功能使用高德定位,ios定位功能使用苹果系统自带的定位功能,所以只需要配置android key,不要配置ios key_
 ### ionic1调用方法
 
 	document.addEventListener('deviceready', function(){

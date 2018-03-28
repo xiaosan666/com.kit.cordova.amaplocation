@@ -21,7 +21,7 @@
     "cordova-ios"
   ],
   "author": "yanxiaojun617@163.com",
-  "license": "MIT",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/yanxiaojun617/com.kit.cordova.amaplocation/issues"
   },

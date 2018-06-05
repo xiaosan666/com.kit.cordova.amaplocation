@@ -11,7 +11,9 @@
   </author>
   <license>Apache 2.0</license>
   <keywords>cordova,location</keywords>
-
+        
+  <dependency id="cordova-plugin-compat" version="^1.1.0" />
+        
   <js-module src="www/location.js" name="LocationPlugin">
     <clobbers target="LocationPlugin"/>
   </js-module>

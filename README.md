@@ -2,9 +2,11 @@
 使用高德Android定位SDK进行定位，以解决webapp中定位不准的问题
 
 ## 安装
-`cordova plugin add https://github.com/yanxiaojun617/com.kit.cordova.amaplocation.git --save`
+`cordova plugin add https://github.com/yanxiaojun617/com.kit.cordova.amaplocation.git --variable KEY=您申请的高德地图androidkey --save`
+
 
 ## 配置
+*  若上面已经指定了KEY，可以不用修改plugin.xml
 *  修改 plugin.xml(:54)文件中的高德地图android key,更多详情请看http://www.jianshu.com/p/85aceaee3b35
 
 `<meta-data android:name="com.amap.api.v2.apikey" android:value="您申请的高德地图android key"/>`

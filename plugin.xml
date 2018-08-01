@@ -20,6 +20,7 @@
 
   <!-- android -->
   <platform name="android">
+    <preference name="KEY" default="" />
     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="LocationPlugin">
         <param name="android-package" value="com.kit.cordova.AMapLocation.LocationPlugin"/>
@@ -56,7 +57,7 @@
 
     <config-file target="AndroidManifest.xml" parent="/manifest/application">
       <!--您申请的高德地图android key更多详情请看http://www.jianshu.com/p/85aceaee3b35-->
-      <meta-data android:name="com.amap.api.v2.apikey" android:value="这里填您申请的高德地图android定位key"/>
+      <meta-data android:name="com.amap.api.v2.apikey" android:value="$KEY"/>
     </config-file>
 
     <config-file target="AndroidManifest.xml" parent="/manifest/application">

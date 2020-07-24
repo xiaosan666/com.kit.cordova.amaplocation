@@ -6,7 +6,7 @@
         version="2.0.0">
   <name>LocationPlugin</name>
   <description>Cordova Location Plugin Powerd by KIT</description>
-  <author email="yanxiaojun617@163.com" href="https://gzkit.com.cn">
+  <author email="yanxiaojun617@163.com">
     yanxiaojun
   </author>
   <license>Apache 2.0</license>
